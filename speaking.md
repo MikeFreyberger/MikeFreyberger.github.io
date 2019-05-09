@@ -70,7 +70,8 @@ The proposal to open source this assignment strategy can be found [here](https:/
 ## Why Stream Processing is Hard
 _June 20, 2018_
 
-__Video Link Coming__
+[![image]({{ site.baseurl }}/images/stream-talk.png)](https://www.dropbox.com/sh/2f8ifa23aznfoxa/AACL1wiFh5FOM6MybQDEJl0Qa?dl=0&preview=Mike+Freyberger+Talk.mp4)
+[Video Link](https://www.dropbox.com/sh/2f8ifa23aznfoxa/AACL1wiFh5FOM6MybQDEJl0Qa?dl=0&preview=Mike+Freyberger+Talk.mp4)
 
 [Slides Link](https://docs.google.com/presentation/d/1v_3tCqZP_-gqlv7hp-89Y0mVkBWHtjPJuplmwbf43ds/edit?usp=sharing)
 
