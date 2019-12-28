@@ -11,8 +11,6 @@ _July 27, 2018_
 
 [Paper Link](https://petsymposium.org/2018/files/papers/issue2/popets-2018-0012.pdf)
 
-[Video Link](https://youtu.be/taHoNps2Yu4?t=29m)
-
 [Slides Link](https://docs.google.com/presentation/d/1hgtua26Cdlo5BzMq3i-0K9LQjVLZOPPYGL1fHclCyTQ/edit?usp=sharing)
 
 [Event Link](https://petsymposium.org/2018/index.php)
