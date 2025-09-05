@@ -10,4 +10,4 @@ From Sept 2016 - Sept 2019, I was a software engineer at AppNexus. I spent time 
 
 Princeton Electrical Engineering class of 2016.
 
-[Full Resume]({{ site.baseurl }}/pdfs/freyberger_michael_resume.pdf)
+[Full Resume]({{ site.baseurl }}/pdfs/mike_freyberger_v2.pdf)
