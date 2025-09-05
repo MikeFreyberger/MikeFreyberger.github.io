@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-I am currently a software engineer at CMDTY.
+I am currently the Co-Founder & CTO of Scope3, an advertising sustainability platform where I've helped build the first-ever carbon emissions model for digital advertising. Previously, I was a founding engineer at Waybridge (commodities trading platform) and a senior software engineer at AppNexus, where I worked on their ad server and streaming data pipeline.
 
-From Sept 2016 - Sept 2019, I was a software engineer at AppNexus. I spent time working on their ad server and their streaming data pipeline.
+I live in New Jersey with my family and have 4 kids. I absolutely love being a dad and playing with my kids.
 
 Princeton Electrical Engineering class of 2016.
 

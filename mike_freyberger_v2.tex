@@ -1,0 +1,141 @@
+%-------------------------
+% Resume in Latex
+% Original Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\definecolor{linkcolor}{HTML}{0645AD} % a softer web-link blue
+\usepackage[pdftex,colorlinks=true,urlcolor=linkcolor]{hyperref}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\renewcommand{\labelitemiii}{$\bullet$}
+
+\newcommand{\resumeItemNoTitle}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{\small#1} & #2 \\
+      \textit{#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large Mike Freyberger}} & Mobile : +1-908-421-3715 \\
+  \href{http://www.linkedin.com/in/michael-freyberger-933a5b53}{www.linkedin.com/in/michael-freyberger-933a5b53} & Email : \href{mailto:mike.freyberger@gmail.com}{mike.freyberger@gmail.com}\\
+\end{tabular*}
+
+%-----------WORK EXPERIENCE-----------------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Scope3 (Advertising Sustainability Platform)}{Jan 2022 -- Present}
+      {Co-Founder \& CTO}{New York, NY / Remote}
+      \resumeItemListStart
+        \resumeItemNoTitle{\textbf{Co-founded advertising sustainability platform} as one of 3 founding engineers, architecting first-ever carbon emissions model for digital advertising using graph-based supply chain analysis.}
+        \resumeItemNoTitle{Built foundational data pipeline and high-throughput API platform using \textbf{Airflow, BigQuery, Dataflow, Pub/Sub, and Google Kubernetes Engine}, enabling transition from manual file delivery to programmatic access for enterprise clients and major ad tech companies.}
+        \resumeItemNoTitle{Led technical strategy enabling \textbf{\$45M raised across two Series B rounds} from Google Ventures by demonstrating platform scalability and infrastructure reliability to board of directors as CTO.}
+        \resumeItemNoTitle{Scaled engineering organization from 3 founding engineers to \textbf{35-person team} across multiple products, developing senior engineers into lead roles, hiring engineering managers, and mentoring director of engineering who became head of engineering.}
+        \resumeItemNoTitle{Architected real-time infrastructure supporting \textbf{1M+ QPS} with $<$10ms latency requirements, negotiating \textbf{90\% cost reduction} in network egress and enabling global bare metal deployment.}
+        \resumeItemNoTitle{Pioneered \textbf{industry-first placement-level optimization} using viewability data, leading technical solutioning and development with ShareThrough and Index Exchange as launch partners.}
+        \resumeItemNoTitle{Built self-service measurement platform with Temporal for event-based orchestration and ClickHouse for sub-second reporting.}
+        \resumeItemNoTitle{Measured over \textbf{1 trillion ad impressions} across 100+ enterprise clients, featuring native integrations with Google, Trade Desk, Amazon, and Meta.}
+        \resumeItemNoTitle{Launched agentic advertising platform using custom LLM-powered brand safety system with real-time infrastructure enabling content-to-classification and live campaign activation within \textbf{10 seconds}.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Waybridge (Commodities Trading Platform)}{Oct 2019 -- Dec 2021}
+      {Founding Engineer/Engineering Manager}{New York, NY / Remote}
+      \resumeItemListStart
+        \resumeItemNoTitle{Founding engineer on 3-person team that built Waybridge's commodities trading platform from ground up, determining product-market fit through rapid iteration with early clients.}
+        \resumeItemNoTitle{Led critical technical migrations including REST to GraphQL conversion and built trade amendment system enabling real-time modifications to booked trades.}
+        \resumeItemNoTitle{\textbf{Managed critical SAP integration with largest client} through daily stakeholder engagement and 24/7 system monitoring, ensuring seamless production rollout while building reusable ERP adapter framework.}
+        \resumeItemNoTitle{Scaled from IC to engineering manager leading 4-engineer team while maintaining technical contributions, improving API performance by \textbf{20x} on critical GraphQL queries.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {AppNexus (Advertising Technology, acquired by AT\&T)}{Sept 2016 -- Oct 2019}
+      {Senior Software Engineer, Team Lead}{New York, NY}
+      \resumeItemListStart
+        \resumeItemNoTitle{Took ownership within months of the core pricing components in AppNexus's low-latency, distributed ad-serving platform (serving \textbf{billions of daily transactions}).}
+        \resumeItemNoTitle{Rapidly promoted to tech lead for a \textbf{7-engineer cross-functional team} building exchange-traded media products.}
+        \resumeItemNoTitle{Led company-wide transparency initiatives as both tech lead and product manager; acted as primary technical contact for Amino Payments and other blockchain partners. Delivered multiple external talks, including \textit{Is Blockchain Ready for AdTech?} \href{https://www.youtube.com/watch?v=mGBcOz2Sp9Q}{[Talk]}.}
+        \resumeItemNoTitle{Designed and launched Transaction Resolver, a full replacement for AppNexus's streaming pipeline determining which ad auctions transacted (\textbf{1.5M+ messages}, \textbf{200K+ transactions}, \textbf{0.5GB/sec throughput}). Presented the architectural design at DeveloperWeek NYC 2018 \href{https://docs.google.com/presentation/d/1v_3tCqZP_-gqlv7hp-89Y0mVkBWHtjPJuplmwbf43ds/edit?usp=sharing}{[Slides]}.}
+        \resumeItemNoTitle{Transitioned into engineering management, leading a forecasting team and driving architectural cost reductions by deprecating legacy systems.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Princeton University}{Sept 2012 -- May 2016}
+      {B.S.E., Electrical Engineering, Magna Cum Laude}{Princeton, NJ}
+      \resumeItemListStart
+        \resumeItemNoTitle{GPA 3.88; inducted into Phi Beta Kappa, Tau Beta Pi, and Sigma Xi honor societies.}
+        \resumeItemNoTitle{Awarded the \textbf{Charles Ira Young Memorial Medal} for top research in Electrical Engineering.}
+        \resumeItemNoTitle{Senior thesis published at PETS 2018: \textit{Cracking ShadowCrypt} \href{https://petsymposium.org/2018/files/papers/issue2/popets-2018-0012.pdf}{[Paper]}, \href{https://youtu.be/7p0IGo14XcU}{[Talk]}.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
